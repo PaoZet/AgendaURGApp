@@ -51,7 +51,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
-    implementation("androidx.fragment:fragment-ktx:1.6.2") // Para los Fragments
+    implementation("androidx.fragment:fragment-ktx:1.6.2") // Para Fragments
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0") // Para el SharedViewModel
     implementation("androidx.activity:activity-ktx:1.8.2") // Para el by viewModels()
     implementation("androidx.core:core-ktx:1.12.0")

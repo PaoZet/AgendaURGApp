@@ -19,8 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // ESTA LÍNEA BORRA LA BASE DE DATOS AL INICIAR LA APP FRESCA
-        // (Si vienes navegando entre pantallas no la borra, solo cuando la app arranca de cero)
+        // Borra base de datos para no ocupar espacio
         if (savedInstanceState == null) {
             deleteDatabase("AgendaURG.db")
         }
@@ -84,7 +83,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         } else {
-            // Diálogo para Contactos (Nombre y Teléfono)
+            // Diálogo para Contactos
             builder.setTitle("Agregar Nuevo Contacto")
             val layout = LinearLayout(this).apply {
                 orientation = LinearLayout.VERTICAL

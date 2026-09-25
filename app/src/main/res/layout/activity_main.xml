@@ -27,7 +27,7 @@
         android:padding="16dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <!-- Botones para alternar entre los 2 Fragments -->
+        <!-- Botones para alternar entre los Fragments -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

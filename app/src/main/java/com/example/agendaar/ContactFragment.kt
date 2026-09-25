@@ -23,8 +23,6 @@ class ContactFragment : Fragment() {
         val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, listaContactos)
         listView.adapter = adapter
 
-        // Se eliminó el setOnItemClickListener para que los contactos solo se muestren en la lista
-
         return view
     }
 }
